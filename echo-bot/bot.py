@@ -9,7 +9,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 
 def main() -> None:
-    updater = Updater("YOUR_BOT_TOKEN")
+    # updater = Updater("YOUR_BOT_TOKEN")
 
     updater.dispatcher.add_handler(TypeHandler(Update, echo))
 
